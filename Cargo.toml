@@ -26,6 +26,7 @@ tokio = { version = "1.35", features = ["io-std", "sync", "macros"] }
 [dev-dependencies]
 criterion = "0.5"
 
-[[bench]]
-name = "startup"
-harness = false
+# Benchmarks will be added in Phase 2
+# [[bench]]
+# name = "startup"
+# harness = false
